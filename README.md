@@ -10,5 +10,5 @@ Adversarial Validatiinの実装
 3. 分布可視化 -（実行段化）
 4. 諸々の計算
 
-一応参考はAdversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems
-ある程度の特徴量選別を行えるようにするのが目標
+- 一応参考は*Adversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems*
+- ある程度の特徴量選別を行えるようにするのが目標
