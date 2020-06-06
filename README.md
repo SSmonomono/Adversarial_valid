@@ -14,3 +14,5 @@ Adversarial Validatiinの実装
 
 - 一応参考は*Adversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems*
 - **ある程度の特徴量選別を行えるようにするのが目標**
+
+##　論文内容
