@@ -15,8 +15,9 @@ Adversarial Validatiinの実装
 - 一応参考は*Adversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems*
 - **ある程度の特徴量選別を行えるようにするのが目標**
 
-## 論文内容
-
+## 論文
 ### 概要
+機械学習の運用にあたり、学習の精度は一定期間は保たれる。しかし時系列によって行動や統計的な数値にずれが生じる。
+このようなData drift 
 
 ### 理論
