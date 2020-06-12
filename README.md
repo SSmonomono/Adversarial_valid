@@ -18,6 +18,8 @@ Adversarial Validatiinの実装
 ## 論文
 ### 概要
 機械学習の運用にあたり、学習の精度は一定期間は保たれる。しかし時系列によって行動や統計的な数値にずれが生じる。
-このようなData drift 
+このようなズレはData driftと呼ばれる。
+
+この論文ではData driftについてAdversarial Validationを用いて分布の差を検知している。
 
 ### 理論
