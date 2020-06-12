@@ -23,9 +23,14 @@ Adversarial Validatiinの実装
 この論文ではData driftについてAdversarial Validationを用いて分布の差を検知している。
 
 ### Data driftが起こるとどうなる？？
-以下の図を見ていただくと、trainとvalidationの分布は似ているが、実際に予測したいtestの分布とは異なっている。
+以下の図を見ると、trainとvalidationの分布は似ているが、実際に予測したいtestの分布とは異なっている。
 これでは、学習機の性能は発揮できない。
 
 <div align="center">
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img2.png" width="780px" class="imgs">
 </div>
+
+このような学習データとテストデータの違いを解決するために、この論文では３つの方法が紹介されている。
+1. Automated Feature Selection
+2. Validation Data Selection
+3. Inverse Propensity Weighting
