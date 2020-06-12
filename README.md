@@ -91,7 +91,9 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 
 3. 閾値より低いデータはvalデータに、閾値より高いものはtrainとしてのデータとする。
 
+### Inverse Propensity Weighting
 
+更新中
 
 
 
