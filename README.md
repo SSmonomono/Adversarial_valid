@@ -23,4 +23,4 @@ Adversarial Validatiinの実装
 この論文ではData driftについてAdversarial Validationを用いて分布の差を検知している。
 
 ### Data driftが起こるとどうなる？？
-
+![Data drift](https://github.com/TakumaTakami/Adversarial_valid/blob/images/img2.png)
