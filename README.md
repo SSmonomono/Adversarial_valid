@@ -57,7 +57,7 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 では、３つの手法の説明
 
 ### Automated Feature Selection
-１つ目は自動的に特徴量を選定する方法です。
+1つ目は自動的に特徴量を選定する方法です。
 先程記載したのと同じようにAdversarial Validationの学習機を作成し学習データとテストデータと分類します。
 （この学習機のことを以下からはAdversarial classifierと呼ぶ）
 
@@ -77,9 +77,9 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 - メリット : 分布の偏りが防げるため正確な評価や一般化が見込める
 - デメリット : 特徴量を選別するため、学習に用いるデータが減ってしまう
 
+### Validation Data Selection
 
-
-
+2つ目は学習データをtrainとvalidationに分割するときに、validation≈test
 
 
 
