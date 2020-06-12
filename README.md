@@ -35,4 +35,12 @@ Adversarial Validatiinの実装
 2. Validation Data Selection
 3. Inverse Propensity Weighting
 
-### Data driftが起こるとどうなる？？
+### Adversarial Validationとは？
+kaggleなどでも用いられる特徴量選択の手法としてよく知られています。
+kaggleなどではLocalCVとLBのスコアが一致しないなどの問題が生じる場合がある。
+以下の記事が参考になります。
+https://upura.hatenablog.com/entry/2019/10/27/211137
+
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img.png" width="780px" class="imgs">
+
+https://upura.hatenablog.com/entry/2019/10/27/211137
