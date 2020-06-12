@@ -41,6 +41,14 @@ kaggleなどではLocalCVとLBのスコアが一致しないなどの問題が�
 以下の記事が参考になります。
 https://upura.hatenablog.com/entry/2019/10/27/211137
 
+以下の図のように学習データとテストデータの違いがある場合、精度に影響が出るのでAdversarial Validationをする。
+まずは学習データとテストデータに0と1のラベルをつけてデータをシャッフルする。
+次に学習データとテストデータと分類する学習器を用意する。
+学習がうまく行く場合は学習データとテストデータの分布が乖離している可能性がある。
+この時Feature importanceを計算し、学習データとテストデータを分類するための寄与度が高い特徴量を算出することができる。
+これらの特徴量を省くことでAdversarial Validationの性能を下げ、データの乖離を防ぎます。
+
 <div align="center">
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img3.png" width="500px" class="imgs">
 </div>
+
