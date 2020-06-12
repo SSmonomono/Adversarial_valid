@@ -65,12 +65,14 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 
 本論文での手順は以下の通りです。
 
-1.Adversarial classifierで学習データとテストデータと分類します。
+1.Adversarial classifierで学習データとテストデータと分類
 2.
 3.
 4.
 
-
+<div align="center">
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="500px" class="imgs">
+</div>
 
 
 
