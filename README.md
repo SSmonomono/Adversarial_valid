@@ -41,4 +41,6 @@ kaggleなどではLocalCVとLBのスコアが一致しないなどの問題が�
 以下の記事が参考になります。
 https://upura.hatenablog.com/entry/2019/10/27/211137
 
-<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img3.png" width="780px" class="imgs">
+<div align="center">
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img3.png" width="500px" class="imgs">
+</div>
