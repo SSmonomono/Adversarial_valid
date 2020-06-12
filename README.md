@@ -9,8 +9,10 @@ Adversarial Validatiinの実装
 2. test-train-split
 3. 分布可視化 -（実行段化）
 4. 諸々の計算
-5. 因果論勉強中
+5. 因果論勉強中（傾向スコアマッチング部分ができていない）
 6. 数値実証段階に移行
+
+
 
 - 一応参考は*Adversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems*
 - **ある程度の特徴量選別を行えるようにするのが目標**
@@ -79,9 +81,13 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 
 ### Validation Data Selection
 
-2つ目は学習データをtrainとvalidationに分割するときに、validation≈test
+2つ目は学習データをtrainとvalに分割するときに、分布がval ≈ testになるようにする手法です。
+傾向スコアマッチングなど用いてData Driftの検証を行う。（テスト群データ1つに対して最も傾向スコアが近いコントロール群のデータをマッチさせる手法）
 
-
+1. Adversarial classifierで学習データとテストデータと分類
+2. 傾向スコアがうまくマッチングできているかを確認するためstandardized mean difference（SMD）が0.1以下になるにデータの分割点（閾値）を決める
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img5.png" width="600px" class="imgs">
+3. 閾値より低いデータはvalデータに、閾値より高いものはtrainとしてのデータとする。
 
 
 
