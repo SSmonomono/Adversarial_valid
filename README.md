@@ -71,7 +71,7 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 4. 
 
 <div align="center">
-<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="500px" class="imgs">
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="700px" class="imgs">
 </div>
 
 
