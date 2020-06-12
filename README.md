@@ -65,10 +65,10 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 
 本論文での手順は以下の通りです。
 
-1.Adversarial classifierで学習データとテストデータと分類
-2.
-3.
-4.
+1. Adversarial classifierで学習データとテストデータと分類
+2. AUCを用いて学習機の評価（AUC >> 0.5）を行い、Feature importanceの計算し重要度が高い特徴量の選定をする。
+3. 
+4. 
 
 <div align="center">
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="500px" class="imgs">
