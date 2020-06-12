@@ -86,7 +86,7 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 2. 傾向スコアがうまくマッチングできているかを確認するためstandardized mean difference（SMD）が0.1以下になるにデータの分割点（閾値）を決める
 
 <div align="center">
-<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img5.png" width="600px" class="imgs">
+<img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img5.png" width="450px" class="imgs">
 </div>
 
 3. 閾値より低いデータはvalデータに、閾値より高いものはtrainとしてのデータとする。
