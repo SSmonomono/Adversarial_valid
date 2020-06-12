@@ -12,8 +12,6 @@ Adversarial Validatiinの実装
 5. 因果論勉強中（傾向スコアマッチング部分ができていない）
 6. 数値実証段階に移行
 
-
-
 - 一応参考は*Adversarial Validation Approach Concept Drift Problem in Automated Machine Learing Systems*
 - **ある程度の特徴量選別を行えるようにするのが目標**
 
@@ -86,7 +84,11 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 
 1. Adversarial classifierで学習データとテストデータと分類
 2. 傾向スコアがうまくマッチングできているかを確認するためstandardized mean difference（SMD）が0.1以下になるにデータの分割点（閾値）を決める
+
+<div align="center">
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img5.png" width="600px" class="imgs">
+</div>
+
 3. 閾値より低いデータはvalデータに、閾値より高いものはtrainとしてのデータとする。
 
 
