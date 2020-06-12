@@ -39,6 +39,7 @@ Adversarial Validatiinの実装
 kaggleなどでも用いられる特徴量選択の手法としてよく知られています。
 kaggleなどではLocalCVとLBのスコアが一致しないなどの問題が生じる場合がある。
 以下の記事が参考になります。
+
 https://upura.hatenablog.com/entry/2019/10/27/211137
 
 以下の図のように学習データとテストデータの違いがある場合、精度に影響が出るのでAdversarial Validationをする。
@@ -53,4 +54,5 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img3.png" width="500px" class="imgs">
 </div>
 
-### Data driftが起こるとどうなる？？
+では、３つの手法の説明
+### Automated Feature Selection
