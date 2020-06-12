@@ -74,6 +74,9 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="700px" class="imgs">
 </div>
 
+- メリット : 分布の偏りが防げるため正確な評価や一般化が見込める
+- デメリット : 特徴量を選別するため、学習に用いるデータが減ってしまう
+
 
 
 
