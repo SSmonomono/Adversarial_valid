@@ -30,7 +30,9 @@ Adversarial Validatiinの実装
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img2.png" width="780px" class="imgs">
 </div>
 
-このような学習データとテストデータの違いを解決するために、この論文では３つの方法が紹介されている。
+このような学習データとテストデータの違いを解決するために、この論文ではAdversarial Validationを用いた３つの方法が紹介されている。
 1. Automated Feature Selection
 2. Validation Data Selection
 3. Inverse Propensity Weighting
+
+### Data driftが起こるとどうなる？？
