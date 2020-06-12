@@ -66,9 +66,9 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 本論文での手順は以下の通りです。
 
 1. Adversarial classifierで学習データとテストデータと分類
-2. AUCを用いて学習機の評価（AUC >> 0.5）を行い、Feature importanceの計算し重要度が高い特徴量の選定をする。
-3. 
-4. 
+2. AUCを用いて学習機の評価（AUCに近づける0.5）を行い、Feature importanceの計算し重要度が高い特徴量の選定することやMDI>0.1の特徴を削除する
+3. 学習機の精度が設定した閾値をAUCが下回らない場合は1.の工程に戻る
+4. AUCが閾値を下回った場合、選定された特徴量を用いたデータセットの作成を行う
 
 <div align="center">
 <img src="https://github.com/TakumaTakami/Adversarial_valid/blob/images/img4.png" width="700px" class="imgs">
