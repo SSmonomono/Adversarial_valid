@@ -55,4 +55,34 @@ https://upura.hatenablog.com/entry/2019/10/27/211137
 </div>
 
 では、３つの手法の説明
+
 ### Automated Feature Selection
+１つ目は自動的に特徴量を選定する方法です。
+先程記載したのと同じようにAdversarial Validationの学習機を作成し学習データとテストデータと分類します。
+（この学習機のことを以下からはAdversarial classifierと呼ぶ）
+
+学習器の評価としてAUCが0.5に近くなるように特徴量の選定を行います。AUCが1.0〜0.8に近いような値が出ている場合はFeature importanceを計算し分類の精度に高く寄与している特徴量を省くと言うような工程を続け、AUCを0.5に近づけていく。
+
+本論文での手順は以下の通りです。
+
+1.Adversarial classifierで学習データとテストデータと分類します。
+2.
+3.
+4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
